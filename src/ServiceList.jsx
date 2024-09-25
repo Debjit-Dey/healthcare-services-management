@@ -16,7 +16,7 @@ const ServiceList = ({ services, onEdit, onDelete }) => {
             <div className="mb-3 sm:mb-0">
               <strong className="text-lg text-blue-600">{service.name}</strong>
               <p className="text-sm text-gray-600">{service.description}</p>
-              <p className="font-bold text-green-600">${service.price}</p>
+              <p className="font-bold text-green-600">₹{service.price}</p>
             </div>
             <div className="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-3">
               <button
